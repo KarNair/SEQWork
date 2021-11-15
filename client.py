@@ -14,9 +14,7 @@ example_first_base = example_sequence1.first_base()
 print(f'The first base is: {example_first_base}')
 
 
-
 # TODO add method calls to complete the tasks
-
 
 
 # base_count() METHOD CALL
@@ -45,6 +43,6 @@ non_match_index = example_sequence1.non_match_base(example_sequence2)
 print("The zero-based index of first non matching base is:", non_match_index)
 
 
-## UNCOMMENT LINES BELOW TO CHECK non_match_base FOR IDENTiCAL SEQUENCE
+## UNCOMMENT LINES BELOW TO CHECK non_match_base FOR IDENTICAL SEQUENCE
 #non_match_index_clone = example_sequence1.non_match_base(example_sequence1)
 #print("The zero-based index of first non matching base is:", non_match_index_clone)
