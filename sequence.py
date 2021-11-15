@@ -54,7 +54,6 @@ class Sequence:
 			return(check_dna)
 
 
-
 	def comp_seq(self):
 
 		""" Generates complementary sequence for the input sequence """
@@ -67,7 +66,6 @@ class Sequence:
 
 
 		return(comp_dna)
-
 
 
 	def non_match_base(self,other):
