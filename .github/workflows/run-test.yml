@@ -3,8 +3,9 @@ name: Python Test Workflow
 on: [push]
 
 jobs:
-  build:
+  PythonSequenceTestWorkflow:
 
+    name: Python Sequence Test Workflow
     runs-on: ubuntu-latest
 
     steps:
