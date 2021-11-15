@@ -18,7 +18,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run Unit Tests
       run : |
-        test_sequence
+        python3 test_sequence.py
     - name: Run Client
       run: |
-        client
+        python3 client.py
