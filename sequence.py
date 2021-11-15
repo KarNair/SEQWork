@@ -17,9 +17,8 @@ class Sequence:
 		self.bases = bases.upper()
 
 
-	"""def __str__(self):
-					return(self.bases)"""
 
+	# TODO: add other methods here to complete the tasks.
 
 	def first_base(self):
 
@@ -95,41 +94,3 @@ class Sequence:
 
 
 			return(-1)
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# TODO: add other methods here to complete the tasks.
-'''def non_match_base(self,other):
-        
-
-        seq1 = self.bases
-        seq2 = other.bases
-
-
-        assert len(seq1) == len(seq2), "Comparison Error. Cannot compare sequences of different lengths"
-
-
-        for base_pair in range(0, len(seq1)):
-
-    	    if seq1[base_pair] != seq2[base_pair]:
-    	        return(base_pair)
-    		    break
-        else:
-
-            return(-1)
-'''

@@ -50,7 +50,7 @@ class TestSequence(unittest.TestCase):
 		self.assertEqual(self.sequence_normal.comp_seq().bases,self.sequence_complimentary.bases)   #Test comp_seq() output against manually defined complimentary sequence of sequence_normal
 		self.assertRaises(Exception, sq.comp_seq, self.sequence_not_dna)    #Check that exception is raised when one of the sequence is not DNA
 		self.assertRaises(Exception, sq.comp_seq, self.sequence_empty)   #Check that exception is raised when one of the sequence is empty
-		self.assertIsInstance(self.sequence_normal.comp_seq(), sq, "The instance does not belong to Sequence class")    #Check if the complimentary sequence is an instance of Sequence class.
+		self.assertIsInstance(self.sequence_normal.comp_seq(), sq, "This object is not a Sequence class instance")    #Check if the complimentary sequence is an instance of Sequence class.
 
 
 
