@@ -17,9 +17,6 @@ class Sequence:
 		self.bases = bases.upper()
 
 
-
-	# TODO: add other methods here to complete the tasks.
-
 	def first_base(self):
 
 	    """We can access the 'bases' for this instance via 'self'. 
@@ -27,6 +24,9 @@ class Sequence:
 
 	    result = self.bases[0]
 	    return result
+
+
+	# TODO: add other methods here to complete the tasks.
 
 
 	def base_count(self):
